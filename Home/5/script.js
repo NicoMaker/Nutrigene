@@ -1,128 +1,124 @@
-// Wait for the DOM to be fully loaded
-document.addEventListener('DOMContentLoaded', function() {
-    // Search functionality
+// Attendi che il DOM sia completamente caricato
+document.addEventListener('DOMContentLoaded', function () {
+    // Funzionalità di ricerca
     const searchBar = document.querySelector('.search-bar input');
     const searchButton = document.querySelector('.search-bar button');
-    
-    searchButton.addEventListener('click', function() {
+
+    searchButton.addEventListener('click', function () {
         performSearch(searchBar.value);
     });
-    
-    searchBar.addEventListener('keypress', function(e) {
+
+    searchBar.addEventListener('keypress', function (e) {
         if (e.key === 'Enter') {
             performSearch(searchBar.value);
         }
     });
-    
+
     function performSearch(query) {
         if (query.trim() !== '') {
             alert('Ricerca per: ' + query);
-            // In a real application, this would redirect to search results
-            // window.location.href = '/search?q=' + encodeURIComponent(query);
+            // In un'applicazione reale, questo reindirizzerebbe ai risultati di ricerca
         }
     }
-    
-    // Cart button functionality
+
+    // Funzionalità pulsante carrello
     const cartButton = document.querySelector('.cart-button');
-    
-    cartButton.addEventListener('click', function() {
+
+    cartButton.addEventListener('click', function () {
         alert('Prodotto aggiunto al carrello!');
-        // In a real application, this would add the product to the cart
+        // In un'applicazione reale, questo aggiungerebbe il prodotto al carrello
     });
-    
-    // Nutrition button functionality
+
+    // Funzionalità pulsante nutrizione
     const nutritionButton = document.querySelector('.nutrition-button');
-    
-    nutritionButton.addEventListener('click', function() {
+
+    nutritionButton.addEventListener('click', function () {
         alert('Scopri di più sulla nutrizione B.A.R.F.');
-        // In a real application, this would redirect to a nutrition page
-        // window.location.href = '/nutrition';
+        // In un'applicazione reale, questo reindirizzerebbe a una pagina sulla nutrizione
     });
-    
-    // Mobile menu toggle (for responsive design)
-    function createMobileMenu() {
-        const nav = document.querySelector('nav');
-        const menuItems = document.querySelector('.nav-menu');
-        
-        // Create hamburger menu button
-        const mobileMenuBtn = document.createElement('div');
-        mobileMenuBtn.className = 'mobile-menu-btn';
-        mobileMenuBtn.innerHTML = '<span></span><span></span><span></span>';
-        
-        // Add mobile menu button to nav
-        if (window.innerWidth <= 768) {
-            if (!document.querySelector('.mobile-menu-btn')) {
-                nav.insertBefore(mobileMenuBtn, menuItems);
-                menuItems.style.display = 'none';
-            }
-            
-            // Toggle menu on click
-            mobileMenuBtn.addEventListener('click', function() {
-                if (menuItems.style.display === 'none') {
-                    menuItems.style.display = 'flex';
-                } else {
-                    menuItems.style.display = 'none';
-                }
-            });
-        } else {
-            // Remove mobile menu on larger screens
-            const existingBtn = document.querySelector('.mobile-menu-btn');
-            if (existingBtn) {
-                existingBtn.remove();
-            }
-            menuItems.style.display = 'flex';
-        }
-    }
-    
-    // Initialize mobile menu
-    createMobileMenu();
-    
-    // Update mobile menu on window resize
-    window.addEventListener('resize', createMobileMenu);
-    
-    // Add smooth scrolling for anchor links
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener('click', function(e) {
+
+    // Funzionalità form di contatto
+    const contactForm = document.querySelector('.contact-form');
+    const contactButton = document.querySelector('.contact-form button');
+
+    if (contactForm) {
+        contactButton.addEventListener('click', function (e) {
             e.preventDefault();
-            
-            const targetId = this.getAttribute('href');
-            if (targetId !== '#') {
-                const targetElement = document.querySelector(targetId);
-                if (targetElement) {
-                    targetElement.scrollIntoView({
-                        behavior: 'smooth'
-                    });
-                }
-            }
-        });
-    });
-    
-    // Add animation for wave dividers
-    const waveDividers = document.querySelectorAll('.wave-divider');
-    
-    function isInViewport(element) {
-        const rect = element.getBoundingClientRect();
-        return (
-            rect.top >= 0 &&
-            rect.left >= 0 &&
-            rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
-            rect.right <= (window.innerWidth || document.documentElement.clientWidth)
-        );
-    }
-    
-    function animateWaves() {
-        waveDividers.forEach(wave => {
-            if (isInViewport(wave)) {
-                wave.style.transition = 'transform 0.5s ease-in-out';
-                wave.style.transform = wave.classList.contains('reverse') ? 
-                    'rotate(180deg) translateY(0)' : 'translateY(0)';
+            const nameInput = contactForm.querySelector('input[type="text"]');
+            const emailInput = contactForm.querySelector('input[type="email"]');
+
+            if (nameInput.value.trim() === '' || emailInput.value.trim() === '') {
+                alert('Per favore, compila tutti i campi.');
+            } else {
+                alert('Grazie per averci contattato! Ti risponderemo presto.');
+                nameInput.value = '';
+                emailInput.value = '';
             }
         });
     }
-    
-    // Initialize wave animations
-    animateWaves();
-    
-    // Update animations on scroll
-    window.addEventListener('scroll', animateWaves);
+
+    // Effetti visivi
+    function addVisualEffects() {
+        // Aggiungi effetto hover ai pulsanti
+        const buttons = document.querySelectorAll('button, .cart-button, .nutrition-button');
+
+        buttons.forEach(button => {
+            button.addEventListener('mouseenter', function () {
+                this.style.transform = 'scale(1.05)';
+                this.style.transition = 'transform 0.2s ease';
+            });
+
+            button.addEventListener('mouseleave', function () {
+                this.style.transform = 'scale(1)';
+            });
+        });
+
+        // Aggiungi effetto parallasse alle immagini
+        window.addEventListener('scroll', function () {
+            const scrollPosition = window.scrollY;
+
+            const dogImage = document.querySelector('.dog-image');
+            if (dogImage) {
+                dogImage.style.transform = `translateY(${scrollPosition * 0.1}px)`;
+            }
+
+            const petIllustrations = document.querySelectorAll('.pet-illustration img');
+            petIllustrations.forEach(img => {
+                img.style.transform = `translateY(${scrollPosition * 0.05}px)`;
+            });
+        });
+    }
+
+    // Inizializza effetti visivi
+    addVisualEffects();
+
+    // Animazione al caricamento della pagina
+    function animateOnLoad() {
+        const elements = [
+            '.hero-content',
+            '.feature-list',
+            '.product-card',
+            '.info-content',
+            '.nutrition-content',
+            '.pets-content',
+            '.footer-content'
+        ];
+
+        elements.forEach((selector, index) => {
+            const element = document.querySelector(selector);
+            if (element) {
+                element.style.opacity = '0';
+                element.style.transform = 'translateY(20px)';
+                element.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+
+                setTimeout(() => {
+                    element.style.opacity = '1';
+                    element.style.transform = 'translateY(0)';
+                }, index * 200);
+            }
+        });
+    }
+
+    // Inizializza animazioni al caricamento
+    animateOnLoad();
 });
