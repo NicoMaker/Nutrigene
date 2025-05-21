@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B.A.S.E. Pet Nutrition</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="logo">
+        B.A.S.E.<br>PET<br>NUTRITION
+    </div>
+
+    <nav>
+        <ul>
+            <li><a href="#">Nutrigene</a></li>
+            <li><a href="#">B.A.S.E.</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Punti/Vendita</a></li>
+            <li><a href="#">Contatti</a></li>
+        </ul>
+    </nav>
+
+    <div class="account">ACCOUNT</div>
+    <div class="area-veterinari">AREA VETERINARI</div>
+
+    <div class="paw-prints" id="pawPrints"></div>
+
+    <div class="content">
+        <div class="text-content">
+            <h1>B.A.S.E.</h1>
+            <p>Non è crocchetta</p>
+            <p>Non è dieta casalinga</p>
+            <p>Non è BARF</p>
+            <a href="#product-section" class="cta-button">Scopri cos'è</a>
+        </div>
+        <div class="dog-image">
+            <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 500 400'><path fill='white' d='M250,350 C350,350 430,300 430,200 C430,100 350,50 250,50 C150,50 70,100 70,200 C70,300 150,350 250,350 Z M320,150 C330,150 340,140 340,130 C340,120 330,110 320,110 C310,110 300,120 300,130 C300,140 310,150 320,150 Z M190,150 C200,150 210,140 210,130 C210,120 200,110 190,110 C180,110 170,120 170,130 C170,140 180,150 190,150 Z M250,250 C290,250 320,240 320,220 C320,200 290,190 250,190 C210,190 180,200 180,220 C180,240 210,250 250,250 Z M250,240 C280,240 300,235 300,220 C300,205 280,200 250,200 C220,200 200,205 200,220 C200,235 220,240 250,240 Z M250,230 C270,230 280,225 280,220 C280,215 270,210 250,210 C230,210 220,215 220,220 C220,225 230,230 250,230 Z'/><circle fill='white' cx='340' cy='200' r='60'/><circle fill='%23ff9933' cx='340' cy='200' r='40'/></svg>"
+                alt="Dog with Bowl">
+        </div>
+    </div>
+
+    <div class="wave"></div>
+
+    <!-- Nuova sezione prodotto -->
+    <div class="product-section-container" id="product-section">
+        <div class="product-header">
+            <div class="product-header-title">Bilanciato, Personalizzabile, Sano, Facile, Veloce!</div>
+
+            <div class="product-box">
+                <div class="product-image">
+                    <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 300'><rect fill='%23f5f5f5' x='20' y='20' width='160' height='260' rx='5' /><text x='60' y='80' font-size='24' fill='%2358b947'>B.A.S.E.</text><text x='70' y='110' font-size='18' fill='%2358b947'>B.Ø</text><rect fill='%2358b947' x='40' y='130' width='120' height='80' rx='5' /><text x='55' y='170' font-size='12' fill='white'>Alimentazione</text><text x='55' y='190' font-size='12' fill='white'>Bilanciata</text><rect fill='%23f5f5f5' x='40' y='220' width='120' height='40' rx='5' /><text x='55' y='245' font-size='12' fill='%23444'>Cani adulti</text></svg>"
+                        alt="BASE B.Ø Prodotto per cani">
+                </div>
+
+                <div class="product-info">
+                    <h2 class="product-title">Noi mettiamo la B.A.S.E.</h2>
+                    <p style="color: #333;">Tu scegli la carne che preferisci</p>
+                    <ul class="product-features">
+                        <li>Cos'è e come funziona</li>
+                        <li>Perché sceglierla</li>
+                        <li>Possibilità dietetica</li>
+                        <li>Prepara la ciotola con la B.A.S.E.</li>
+                    </ul>
+                </div>
+
+                <div class="product-actions">
+                    <div class="food-icon">
+                        <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle fill='%23f5f5f5' cx='50' cy='50' r='40'/><circle fill='%23ffcc99' cx='50' cy='50' r='30'/><circle fill='%23ff9933' cx='40' cy='40' r='5'/><circle fill='%23ff9933' cx='60' cy='40' r='5'/><circle fill='%23ff9933' cx='50' cy='60' r='5'/></svg>"
+                            alt="Ciotola di cibo per cani">
+                    </div>
+                    <div class="action-button">Configura la tua ciotola<br><span style="font-size: 12px;">con il calcolatore formulato da noi</span></div>
+                    <div>
+                        <svg class="cart-icon" viewBox="0 0 24 24" fill="#ff9800">
+                            <path d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zM1 2v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.14 0-.25-.11-.25-.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.58-6.49c.08-.14.12-.31.12-.48 0-.55-.45-1-1-1H5.21l-.94-2H1zm16 16c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z"/>
+                        </svg>
+                    </div>
+                    <div class="action-button">Compra la tua base</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="orange-section">
+            <div class="orange-content">
+                <h2 class="orange-title">Un'alimentazione SANA.</h2>
+                <p class="orange-subtitle">Merito della formulazione e delle materie prime selezionate!</p>
+                <p class="orange-text">Il meglio da entrambi i mondi: carne fresca selezionata personalmente e il Sistema B.A.S.E.™ con ingredienti vegetali di qualità human grade, controllati e certificati. Un sistema semplice per una nutrizione completa e personalizzabile.</p>
+                <button class="orange-button">Scopri cosa contiene</button>
+            </div>
+            <div class="background-image"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
