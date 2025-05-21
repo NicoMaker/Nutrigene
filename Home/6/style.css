@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: #ff9933;
+  background-color: #FA9529;
   color: white;
   overflow-x: hidden;
 }
@@ -23,7 +23,7 @@ body {
   align-items: center;
   justify-content: center;
   font-weight: bold;
-  color: #ff9933;
+  color: #FA9529;
   font-size: 14px;
   text-align: center;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
@@ -96,7 +96,7 @@ nav ul li a {
 
 .cta-button {
   background-color: white;
-  color: #ff9933;
+  color: #FA9529;
   padding: 10px 20px;
   border-radius: 5px;
   text-decoration: none;
@@ -180,7 +180,7 @@ nav ul li a {
   justify-content: space-between;
   align-items: center;
   background-color: #fff;
-  border: 2px solid #ff9800;
+  border: 2px solid #FA9529;
   border-radius: 15px;
   padding: 15px;
   margin: 20px 0;
@@ -201,7 +201,7 @@ nav ul li a {
 }
 
 .product-title {
-  color: #ff9800;
+  color: #FA9529;
   font-size: 22px;
   margin-bottom: 15px;
   font-weight: bold;
@@ -222,7 +222,7 @@ nav ul li a {
   content: "•";
   position: absolute;
   left: 0;
-  color: #ff9800;
+  color: #FA9529;
 }
 
 .product-actions {
@@ -249,7 +249,7 @@ nav ul li a {
 }
 
 .action-button {
-  background-color: #ff9800;
+  background-color: #FA9529;
   color: white;
   border: none;
   border-radius: 20px;
@@ -275,7 +275,7 @@ nav ul li a {
 }
 
 .wave-section {
-  background-color: #ff7f27;
+  background-color: #FA9529;
   padding: 40px 20px;
   color: white;
   position: relative;
@@ -288,7 +288,7 @@ nav ul li a {
   left: 0;
   width: 100%;
   height: 60px;
-  background-color: #ff7f27;
+  background-color: #FA9529;
   border-radius: 100% 100% 0 0;
 }
 
@@ -344,7 +344,7 @@ nav ul li a {
 }
 
 body {
-  background-color: #ff9933;
+  background-color: #FA9529;
   color: white;
   overflow-x: hidden;
 }
@@ -439,7 +439,7 @@ nav ul li a {
 
 .cta-button {
   background-color: white;
-  color: #ff9933;
+  color: #FA9529;
   padding: 10px 20px;
   border-radius: 5px;
   text-decoration: none;
@@ -526,7 +526,7 @@ nav ul li a {
   justify-content: space-between;
   align-items: center;
   background-color: #fff;
-  border: 2px solid #ff9800;
+  border: 2px solid #FA9529;
   border-radius: 15px;
   padding: 15px;
   margin: 20px 0;
@@ -547,7 +547,7 @@ nav ul li a {
 }
 
 .product-title {
-  color: #ff9800;
+  color: #FA9529;
   font-size: 22px;
   margin-bottom: 15px;
   font-weight: bold;
@@ -568,7 +568,7 @@ nav ul li a {
   content: "•";
   position: absolute;
   left: 0;
-  color: #ff9800;
+  color: #FA9529;
 }
 
 /* Azioni prodotto */
@@ -596,7 +596,7 @@ nav ul li a {
 }
 
 .action-button {
-  background-color: #ff9800;
+  background-color: #FA9529;
   color: white;
   border: none;
   border-radius: 20px;
@@ -623,7 +623,7 @@ nav ul li a {
 
 /* Sezione wave finale */
 .wave-section {
-  background-color: #ff7f27;
+  background-color: #FA9529;
   padding: 40px 20px;
   color: white;
   position: relative;
@@ -636,7 +636,7 @@ nav ul li a {
   left: 0;
   width: 100%;
   height: 60px;
-  background-color: #ff7f27;
+  background-color: #FA9529;
   border-radius: 100% 100% 0 0;
 }
 
