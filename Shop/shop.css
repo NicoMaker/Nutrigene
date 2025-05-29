@@ -1,0 +1,1309 @@
+body {
+margin: 0;
+line-height: normal;
+}
+
+.le-basi-le-container {
+position: absolute;
+top: 1230px;
+left: calc(50% - 361px);
+font-weight: 600;
+display: inline-block;
+width: 722px;
+font-size: 20px;
+}
+.le-basi1 {
+font-size: 36px;
+}
+.le-basi {
+margin: 0;
+}
+.contattaci {
+text-decoration: underline;
+}
+.basi-alimentari-child13 {
+position: absolute;
+top: 1435px;
+left: 130px;
+border-radius: 10px;
+border: 4px solid #68bf7a;
+box-sizing: border-box;
+width: 580px;
+height: 321px;
+}
+.basi-alimentari-child14 {
+position: absolute;
+top: 1435px;
+left: 850px;
+border-radius: 10px;
+border: 4px solid #d8d03a;
+box-sizing: border-box;
+width: 580px;
+height: 321px;
+}
+.basi-alimentari-child15 {
+position: absolute;
+top: 1805px;
+left: 850px;
+border-radius: 10px;
+border: 4px solid #866247;
+box-sizing: border-box;
+width: 580px;
+height: 321px;
+}
+.basi-alimentari-child16 {
+position: absolute;
+top: 1805px;
+left: 130px;
+border-radius: 10px;
+border: 4px solid #c8b496;
+box-sizing: border-box;
+width: 580px;
+height: 321px;
+}
+.image-26-icon {
+position: absolute;
+top: 1792px;
+left: 719px;
+width: 342px;
+height: 342px;
+object-fit: cover;
+}
+.image-29-icon {
+position: absolute;
+top: 1425px;
+left: 677px;
+width: 341px;
+height: 341px;
+object-fit: cover;
+}
+.image-28-icon {
+position: absolute;
+top: 1419px;
+left: -42px;
+width: 341px;
+height: 341px;
+object-fit: cover;
+}
+.base-b0 {
+position: absolute;
+top: 1474px;
+left: 370px;
+font-size: 40px;
+font-weight: 600;
+color: #68bf7a;
+}
+.div {
+position: absolute;
+top: 1584px;
+left: 370px;
+font-size: 24px;
+font-weight: 600;
+}
+.per-cuccioli-con {
+position: absolute;
+top: 1522px;
+left: 370px;
+font-size: 24px;
+}
+.basi-alimentari-child17 {
+position: absolute;
+top: 1635px;
+left: 370px;
+border-radius: 6px;
+background-color: #68bf7a;
+width: 220px;
+height: 42px;
+}
+.dettagli {
+position: absolute;
+top: 1637px;
+left: 370px;
+font-weight: 600;
+color: #fff;
+display: inline-block;
+width: 220px;
+}
+.basi-alimentari-child18 {
+position: absolute;
+top: 1690px;
+left: 370px;
+border-radius: 6px;
+background-color: #68bf7a;
+width: 220px;
+height: 42px;
+}
+.vai-al-carrello {
+position: absolute;
+top: 1692px;
+left: 370px;
+font-weight: 600;
+color: #fff;
+display: inline-block;
+width: 220px;
+}
+.base-b1 {
+position: absolute;
+top: 1474px;
+left: 1090px;
+font-size: 40px;
+font-weight: 600;
+color: #d8d03a;
+}
+.div1 {
+position: absolute;
+top: 1584px;
+left: 1091px;
+font-size: 24px;
+font-weight: 600;
+}
+.per-cani-adulti {
+position: absolute;
+top: 1522px;
+left: 1090px;
+font-size: 24px;
+}
+.basi-alimentari-child19 {
+position: absolute;
+top: 1635px;
+left: 1090px;
+border-radius: 6px;
+background-color: #d8d03a;
+width: 220px;
+height: 42px;
+}
+.dettagli1 {
+position: absolute;
+top: 1637px;
+left: 1090px;
+font-weight: 600;
+color: #fff;
+display: inline-block;
+width: 220px;
+}
+.basi-alimentari-child20 {
+position: absolute;
+top: 1688px;
+left: 1090px;
+border-radius: 6px;
+background-color: #d8d03a;
+width: 220px;
+height: 42px;
+}
+.vai-al-carrello1 {
+position: absolute;
+top: 1690px;
+left: 1090px;
+font-weight: 600;
+color: #fff;
+display: inline-block;
+width: 220px;
+}
+.multipack-4-base {
+position: absolute;
+top: 1844px;
+left: 970px;
+font-size: 38px;
+font-weight: 600;
+color: #866247;
+display: inline-block;
+width: 457px;
+}
+.div2 {
+position: absolute;
+top: 1966px;
+left: 1091px;
+font-size: 24px;
+font-weight: 600;
+}
+.la-base-di {
+position: absolute;
+top: 1895px;
+left: 1091px;
+font-size: 24px;
+text-align: left;
+display: inline-block;
+width: 336px;
+}
+.basi-alimentari-child21 {
+position: absolute;
+top: 2011px;
+left: 1090px;
+border-radius: 6px;
+background-color: #866247;
+width: 220px;
+height: 42px;
+}
+.dettagli2 {
+position: absolute;
+top: 2013px;
+left: 1090px;
+font-weight: 600;
+color: #fff;
+display: inline-block;
+width: 220px;
+}
+.basi-alimentari-child22 {
+position: absolute;
+top: 2065px;
+left: 1090px;
+border-radius: 6px;
+background-color: #866247;
+width: 220px;
+height: 42px;
+}
+.vai-al-carrello2 {
+position: absolute;
+top: 2067px;
+left: 1090px;
+font-weight: 600;
+color: #fff;
+display: inline-block;
+width: 220px;
+}
+.image-31-icon {
+position: absolute;
+top: 1796px;
+left: -36px;
+width: 343px;
+height: 343px;
+object-fit: cover;
+}
+.base-b2 {
+position: absolute;
+top: 1844px;
+left: 372px;
+font-size: 40px;
+font-weight: 600;
+color: #c8b496;
+}
+.div3 {
+position: absolute;
+top: 1965px;
+left: 370px;
+font-size: 24px;
+font-weight: 600;
+}
+.per-cani-adulti1 {
+position: absolute;
+top: 1896px;
+left: 370px;
+font-size: 24px;
+line-height: 25px;
+text-align: left;
+display: inline-block;
+width: 260px;
+}
+.basi-alimentari-child23 {
+position: absolute;
+top: 2011px;
+left: 370px;
+border-radius: 6px;
+background-color: #c8b496;
+width: 220px;
+height: 42px;
+}
+.dettagli3 {
+position: absolute;
+top: 2013px;
+left: 370px;
+font-weight: 600;
+color: #fff;
+display: inline-block;
+width: 220px;
+}
+.basi-alimentari-child24 {
+position: absolute;
+top: 2065px;
+left: 370px;
+border-radius: 6px;
+background-color: #c8b496;
+width: 220px;
+height: 42px;
+}
+.vai-al-carrello3 {
+position: absolute;
+top: 2067px;
+left: 370px;
+font-weight: 600;
+color: #fff;
+display: inline-block;
+width: 220px;
+}
+.group-icon {
+position: absolute;
+height: 60.17%;
+width: 100%;
+top: 39.86%;
+right: 0%;
+bottom: -0.03%;
+left: 0%;
+max-width: 100%;
+overflow: hidden;
+max-height: 100%;
+object-fit: contain;
+}
+.base-ciotola-6-icon {
+position: absolute;
+top: 0px;
+left: 3.66px;
+width: 104.9px;
+height: 57.1px;
+overflow: hidden;
+}
+.group-parent {
+position: absolute;
+height: 2.93%;
+width: 7.77%;
+top: 5.01%;
+right: 78.28%;
+bottom: 92.06%;
+left: 13.95%;
+}
+.basi-alimentari-child25 {
+position: absolute;
+top: 335px;
+left: 218px;
+border: 2px solid #f2662b;
+box-sizing: border-box;
+width: 82px;
+height: 66px;
+}
+.basi-alimentari-child26 {
+position: absolute;
+top: 340.17px;
+left: 213.79px;
+background-color: #da9369;
+border: 2px solid #000;
+box-sizing: border-box;
+width: 82.6px;
+height: 66.5px;
+transform: rotate(-7.6deg);
+transform-origin: 0 0;
+}
+.basi-alimentari-child27 {
+position: absolute;
+top: 4249px;
+left: 0px;
+width: 1440px;
+height: 1027px;
+}
+.alimentazione-equilibrata-per {
+position: absolute;
+top: 2388px;
+left: 130px;
+font-size: 50px;
+display: inline-block;
+color: #fff;
+width: 1180px;
+}
+.carne-fresca {
+position: absolute;
+top: 2870px;
+left: 128px;
+font-size: 64px;
+display: inline-block;
+color: #fff;
+width: 462px;
+}
+.base1 {
+position: absolute;
+top: 2866px;
+left: 850px;
+font-size: 64px;
+display: inline-block;
+color: #fff;
+width: 462px;
+}
+.un-approcio-bilanciato {
+position: absolute;
+top: 2556px;
+left: 130px;
+font-size: 40px;
+color: #fff;
+display: inline-block;
+width: 1180px;
+}
+.personalizzazione-e-flessibili {
+position: absolute;
+top: 3342px;
+left: 10px;
+font-size: 40px;
+font-weight: 600;
+color: #fff;
+display: inline-block;
+width: 1420px;
+}
+.tm {
+position: absolute;
+top: 2448px;
+left: 904px;
+font-size: 26px;
+color: #fff;
+text-align: left;
+display: inline-block;
+width: 45px;
+}
+.la-fonte-primaria {
+position: absolute;
+top: 3092px;
+left: 132px;
+font-size: 32px;
+color: #fff;
+display: inline-block;
+width: 458px;
+}
+.variare-gli-ingredienti {
+margin-bottom: 0px;
+}
+.variare-gli-ingredienti-fresch {
+margin: 0;
+font-family: inherit;
+font-size: inherit;
+padding-left: 40px;
+}
+.il-sistema-base-container {
+position: absolute;
+top: 3445px;
+left: 10px;
+font-size: 30px;
+color: #fff;
+text-align: left;
+display: inline-block;
+width: 1420px;
+}
+.applicazioni-specifiche {
+position: absolute;
+top: 3671px;
+left: 10px;
+font-size: 40px;
+font-weight: 600;
+color: #fff;
+display: inline-block;
+width: 1420px;
+}
+.particolarmente-indicato-per-container {
+position: absolute;
+top: 3774px;
+left: 10px;
+font-size: 30px;
+color: #fff;
+text-align: left;
+display: inline-block;
+width: 1420px;
+}
+.per-maggiori-informazioni-container {
+position: absolute;
+top: 3996px;
+left: 10px;
+font-size: 30px;
+display: inline-block;
+color: #fff;
+width: 1420px;
+}
+.il-complemento-nutrizionale {
+position: absolute;
+top: 3085px;
+left: 850px;
+font-size: 32px;
+color: #fff;
+display: inline-block;
+width: 457px;
+}
+.basi-alimentari-child28 {
+position: absolute;
+top: 3198px;
+left: 250px;
+border-radius: 6px;
+background-color: #fff;
+width: 220px;
+height: 42px;
+}
+.dettagli4 {
+position: absolute;
+top: 3200px;
+left: 250px;
+font-weight: 600;
+color: #fa9529;
+display: inline-block;
+width: 220px;
+}
+.basi-alimentari-child29 {
+position: absolute;
+top: 3198px;
+left: 970px;
+border-radius: 6px;
+background-color: #fff;
+width: 220px;
+height: 42px;
+}
+.dettagli5 {
+position: absolute;
+top: 3200px;
+left: 970px;
+font-weight: 600;
+color: #fa9529;
+display: inline-block;
+width: 220px;
+}
+.polygon-icon {
+position: absolute;
+top: 3200px;
+left: 429px;
+width: 32px;
+height: 32px;
+object-fit: contain;
+}
+.basi-alimentari-child30 {
+position: absolute;
+top: 3200px;
+left: 1148px;
+width: 32px;
+height: 32px;
+object-fit: contain;
+}
+.image-49-icon {
+position: absolute;
+top: 4292px;
+left: 587px;
+width: 266px;
+height: 104px;
+object-fit: cover;
+}
+.consulenze-nutrizionali {
+position: absolute;
+top: 4409px;
+left: 130px;
+font-size: 40px;
+font-weight: 600;
+color: #76a8c3;
+display: inline-block;
+width: 1180px;
+}
+.dubbi-sullalimentazione-del {
+position: absolute;
+top: 4483px;
+left: 130px;
+font-size: 30px;
+display: inline-block;
+width: 1180px;
+}
+.basi-alimentari-child31 {
+position: absolute;
+top: 4632px;
+left: 609px;
+border-radius: 6px;
+background-color: #76a8c3;
+width: 220px;
+height: 42px;
+}
+.scopri-di-pi {
+position: absolute;
+top: 4634px;
+left: 609px;
+font-weight: 600;
+color: #fff;
+display: inline-block;
+width: 220px;
+}
+
+
+.nutrigene2 {
+position: absolute;
+width: 15.28%;
+top: 30.47%;
+left: 50.69%;
+display: flex;
+align-items: center;
+}
+.base3 {
+position: absolute;
+width: 15.28%;
+top: 36.92%;
+left: 50.69%;
+display: flex;
+align-items: center;
+}
+
+
+/* .footerbasi {
+position: absolute;
+top: 4800px;
+left: -1px;
+width: 1440px;
+height: 558px;
+text-align: left;
+font-size: 30px;
+font-family: Fredoka;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.shop-child {
+  	position: absolute;
+  	top: 596px;
+  	left: -49px;
+  	background-color: #f7f0e2;
+  	width: 1518px;
+  	height: 1048px;
+  	display: none;
+}
+.nutrigene {
+  	position: absolute;
+  	top: 16px;
+  	left: 0px;
+  	font-size: 30px;
+  	font-family: Fredoka;
+}
+.shop-item {
+  	position: absolute;
+  	top: -72px;
+  	left: 0px;
+  	width: 1440px;
+  	height: 727px;
+  	object-fit: contain;
+}
+.shop-inner {
+  	position: absolute;
+  	top: -1px;
+  	left: 0px;
+  	width: 1440px;
+  	height: 655.2px;
+}
+.image-24-icon {
+  	position: absolute;
+  	top: 191px;
+  	left: 727px;
+  	width: 591.3px;
+  	height: 388px;
+  	object-fit: cover;
+}
+.logo-removebg-preview-1-icon {
+  	position: absolute;
+  	top: 8px;
+  	left: calc(50% - 713.92px);
+  	width: 154.8px;
+  	height: 153px;
+  	object-fit: cover;
+}
+.group-child {
+  	position: absolute;
+  	top: 37px;
+  	left: 0px;
+  	border-radius: 6px;
+  	background-color: #f9bd00;
+  	width: 227px;
+  	height: 32px;
+}
+.area-veterinari {
+  	position: absolute;
+  	top: 38px;
+  	left: 6px;
+}
+.group-item {
+  	position: absolute;
+  	top: 0px;
+  	left: 95px;
+  	border-radius: 6px;
+  	background-color: #f9bd00;
+  	width: 132px;
+  	height: 32px;
+}
+.account {
+  	position: absolute;
+  	top: 1px;
+  	left: 101px;
+}
+.rectangle-parent {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 227px;
+  	height: 69px;
+}
+.group-div {
+  	position: absolute;
+  	top: 50px;
+  	left: 1193px;
+  	width: 227px;
+  	height: 69px;
+  	font-size: 25px;
+  	font-family: Fredoka;
+}
+.shop1 {
+  	position: absolute;
+  	top: 166px;
+  	left: 254px;
+  	font-size: 60px;
+  	color: #fff;
+}
+.union-icon {
+  	position: relative;
+  	width: 145.3px;
+  	height: 143px;
+  	object-fit: contain;
+}
+.union-icon1 {
+  	position: relative;
+  	width: 112.9px;
+  	height: 111.4px;
+  	object-fit: contain;
+}
+.union-icon2 {
+  	position: relative;
+  	width: 73.5px;
+  	height: 71.6px;
+  	object-fit: contain;
+}
+.union-icon3 {
+  	position: relative;
+  	width: 121.4px;
+  	height: 117.4px;
+  	object-fit: contain;
+}
+.union-icon4 {
+  	position: relative;
+  	width: 111.1px;
+  	height: 109.3px;
+  	object-fit: contain;
+}
+.rectangle-div {
+  	position: absolute;
+  	top: 792px;
+  	left: 10px;
+  	background-color: #f9bd04;
+  	width: 340px;
+  	height: 380px;
+  	opacity: 0.5;
+}
+.shop-child1 {
+  	position: absolute;
+  	top: 792px;
+  	left: 371px;
+  	background-color: #da9369;
+  	width: 339px;
+  	height: 380px;
+  	opacity: 0.5;
+}
+.shop-child2 {
+  	position: absolute;
+  	top: 795px;
+  	left: 730px;
+  	background-color: #78adc4;
+  	width: 340px;
+  	height: 377px;
+  	opacity: 0.5;
+}
+.shop-child3 {
+  	position: absolute;
+  	top: 795px;
+  	left: 1090px;
+  	background-color: #d8d3d3;
+  	width: 340px;
+  	height: 377px;
+  	opacity: 0.5;
+}
+.image-23-icon {
+  	position: absolute;
+  	top: 658px;
+  	left: 750px;
+  	width: 300px;
+  	height: 300px;
+  	object-fit: cover;
+}
+.nutrigene-b0-3kg-e157858432012-icon {
+  	position: absolute;
+  	top: 694px;
+  	left: 101px;
+  	width: 173.7px;
+  	height: 202px;
+  	object-fit: cover;
+}
+.nutrigene-tris-integratori-e15-icon {
+  	position: absolute;
+  	top: 687px;
+  	left: 429px;
+  	width: 190.9px;
+  	height: 209px;
+  	object-fit: cover;
+}
+.shop-child4 {
+  	position: absolute;
+  	top: 1098px;
+  	left: 107px;
+  	border-radius: 6px;
+  	background-color: #fbbc02;
+  	width: 140px;
+  	height: 42px;
+}
+.shop-child5 {
+  	position: absolute;
+  	top: 1098px;
+  	left: 830px;
+  	border-radius: 6px;
+  	background-color: #75aeca;
+  	width: 140px;
+  	height: 42px;
+}
+.rectangle-icon {
+  	position: absolute;
+  	top: 1098px;
+  	left: 1190px;
+  	border-radius: 6px;
+  	width: 140px;
+  	height: 42px;
+}
+.basi-alimentari {
+  	position: absolute;
+  	top: 910px;
+  	left: 10px;
+  	font-size: 20px;
+  	text-decoration: underline;
+  	font-weight: 600;
+  	text-align: center;
+  	display: inline-block;
+  	width: 340px;
+}
+.integratori-alimentari {
+  	position: absolute;
+  	top: 910px;
+  	left: 371px;
+  	font-size: 20px;
+  	text-decoration: underline;
+  	font-weight: 600;
+  	text-align: center;
+  	display: inline-block;
+  	width: 339px;
+}
+.masticativi-naturali {
+  	position: absolute;
+  	top: 910px;
+  	left: 730px;
+  	font-size: 20px;
+  	text-decoration: underline;
+  	font-weight: 600;
+  	text-align: center;
+  	display: inline-block;
+  	width: 340px;
+}
+.snack {
+  	position: absolute;
+  	top: 910px;
+  	left: 1090px;
+  	font-size: 20px;
+  	text-decoration: underline;
+  	font-weight: 600;
+  	text-align: center;
+  	display: inline-block;
+  	width: 340px;
+}
+.il-modo-tutto {
+  	position: absolute;
+  	top: 954px;
+  	left: 20px;
+  	text-align: justify;
+  	display: inline-block;
+  	width: 320px;
+  	height: 95px;
+}
+.la-linea-di {
+  	position: absolute;
+  	top: 954px;
+  	left: 381px;
+  	text-align: justify;
+  	display: inline-block;
+  	width: 319px;
+  	height: 115px;
+}
+.masticativi-essiccati-animali {
+  	position: absolute;
+  	top: 954px;
+  	left: 740px;
+  	text-align: justify;
+  	display: inline-block;
+  	width: 320px;
+  	height: 136px;
+}
+.biscotti-per-cani {
+  	position: absolute;
+  	top: 954px;
+  	left: 1100px;
+  	text-align: justify;
+  	display: inline-block;
+  	width: 320px;
+  	height: 132px;
+}
+.scopri-i-prodotti {
+  	position: absolute;
+  	top: 1109px;
+  	left: 124px;
+}
+.group-inner {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	border-radius: 6px;
+  	background-color: #f2662b;
+  	width: 140px;
+  	height: 42px;
+}
+.scopri-i-prodotti1 {
+  	position: absolute;
+  	top: 11px;
+  	left: 15px;
+}
+.rectangle-group {
+  	position: absolute;
+  	top: 1098px;
+  	left: 470px;
+  	width: 140px;
+  	height: 42px;
+}
+.scopri-i-prodotti2 {
+  	position: absolute;
+  	top: 1108px;
+  	left: 844px;
+}
+.scopri-i-prodotti3 {
+  	position: absolute;
+  	top: 1109px;
+  	left: 1204px;
+}
+.nutrigene1 {
+  	position: absolute;
+  	top: 66px;
+  	left: 257px;
+  	font-size: 30px;
+  	font-family: Fredoka;
+}
+.base {
+  	position: absolute;
+  	top: 66px;
+  	left: 455px;
+  	font-size: 30px;
+  	font-family: Fredoka;
+}
+.shop2 {
+  	position: absolute;
+  	top: 66px;
+  	left: 586px;
+  	font-size: 30px;
+  	font-family: Fredoka;
+}
+.punti-vendita {
+  	position: absolute;
+  	top: 65px;
+  	left: 694px;
+  	font-size: 30px;
+  	font-family: Fredoka;
+}
+.contatti {
+  	position: absolute;
+  	top: 65px;
+  	left: 940px;
+  	font-size: 30px;
+  	font-family: Fredoka;
+}
+.ellipse-div {
+  	position: absolute;
+  	top: 82px;
+  	left: 438px;
+  	border-radius: 50%;
+  	background-color: #000;
+  	width: 5px;
+  	height: 5px;
+}
+.shop-child6 {
+  	position: absolute;
+  	top: 82px;
+  	left: 568px;
+  	border-radius: 50%;
+  	background-color: #000;
+  	width: 5px;
+  	height: 5px;
+}
+.shop-child7 {
+  	position: absolute;
+  	top: 82px;
+  	left: 676px;
+  	border-radius: 50%;
+  	background-color: #000;
+  	width: 5px;
+  	height: 5px;
+}
+.shop-child8 {
+  	position: absolute;
+  	top: 82px;
+  	left: 922px;
+  	border-radius: 50%;
+  	background-color: #000;
+  	width: 5px;
+  	height: 5px;
+}
+.image-22-icon {
+  	position: absolute;
+  	top: 708px;
+  	left: 1153px;
+  	width: 199px;
+  	height: 199px;
+  	object-fit: cover;
+}
+.group-child1 {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	border-radius: 6px;
+  	background-color: #fff;
+  	width: 460px;
+  	height: 42px;
+}
+.acquista-tovaglietta-sottociot {
+  	position: absolute;
+  	top: 6px;
+  	left: 69px;
+  	display: inline-block;
+  	width: 391px;
+}
+.rectangle-container {
+  	position: absolute;
+  	top: 350px;
+  	left: 250px;
+  	width: 460px;
+  	height: 42px;
+  	font-size: 20px;
+  	color: #fa9529;
+}
+.group-child2 {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	border-radius: 6px;
+  	background-color: #fff;
+  	width: 340px;
+  	height: 42px;
+}
+.configura-la-tua {
+  	position: absolute;
+  	top: 6px;
+  	left: 69px;
+  	display: inline-block;
+  	width: 271px;
+}
+.rectangle-parent1 {
+  	position: absolute;
+  	top: 278px;
+  	left: 250px;
+  	width: 340px;
+  	height: 42px;
+  	font-size: 20px;
+  	color: #fa9529;
+}
+.group-icon {
+  	position: absolute;
+  	height: 3.58%;
+  	width: 8.07%;
+  	top: 14.08%;
+  	right: 78.29%;
+  	bottom: 82.34%;
+  	left: 13.64%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+}
+.shop-child9 {
+  	position: absolute;
+  	top: 335px;
+  	left: 218px;
+  	border: 2px solid #f2662b;
+  	box-sizing: border-box;
+  	width: 82px;
+  	height: 66px;
+}
+.shop-child10 {
+  	position: absolute;
+  	top: 340.17px;
+  	left: 213.79px;
+  	background-color: #da9369;
+  	border: 2px solid #000;
+  	box-sizing: border-box;
+  	width: 82.6px;
+  	height: 66.5px;
+  	transform:  rotate(-7.6deg);
+  	transform-origin: 0 0;
+}
+.footer-child {
+  	position: absolute;
+  	height: 100%;
+  	width: 100%;
+  	top: 0%;
+  	right: 0%;
+  	bottom: 0%;
+  	left: 0%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+}
+.logo-footer-1-icon {
+  	position: absolute;
+  	width: 29.44%;
+  	top: 111.31px;
+  	right: 69.86%;
+  	left: 0.69%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	height: 150px;
+  	object-fit: cover;
+}
+.infonutrigenefoodcom {
+  	color: inherit;
+}
+.nutrigene-srl-via-morpurgo {
+  	margin: 0;
+}
+.privacy-policy {
+  	text-decoration: underline;
+}
+.privacy-policy-cookie-policy {
+  	margin: 0;
+  	font-size: 20px;
+}
+.nutrigene-srl-via-morpurgo-container1 {
+  	width: 100%;
+}
+.nutrigene-srl-via-morpurgo-container {
+  	position: absolute;
+  	height: 31.54%;
+  	width: 90.07%;
+  	top: 62.19%;
+  	left: 1.32%;
+  	font-family: Poppins;
+  	display: flex;
+  	align-items: center;
+  	font-size: 25px;
+}
+.punti-vendita1 {
+  	position: absolute;
+  	width: 15.28%;
+  	top: 30.47%;
+  	left: 67.36%;
+  	display: flex;
+  	align-items: center;
+}
+.contatti1 {
+  	position: absolute;
+  	width: 15.28%;
+  	top: 36.92%;
+  	left: 67.36%;
+  	display: flex;
+  	align-items: center;
+}
+.nutrigene2 {
+  	position: absolute;
+  	width: 15.28%;
+  	top: 30.47%;
+  	left: 50.69%;
+  	display: flex;
+  	align-items: center;
+}
+.base1 {
+  	position: absolute;
+  	width: 15.28%;
+  	top: 36.92%;
+  	left: 50.69%;
+  	display: flex;
+  	align-items: center;
+}
+.shop3 {
+  	position: absolute;
+  	width: 15.28%;
+  	top: 43.37%;
+  	left: 50.69%;
+  	display: flex;
+  	align-items: center;
+}
+.account-area-veterinari-container {
+  	position: absolute;
+  	width: 15.28%;
+  	top: 30.29%;
+  	left: 84.03%;
+  	display: flex;
+  	align-items: center;
+}
+.Facebook-icon {
+  	position: absolute;
+  	height: 14.34%;
+  	width: 5.56%;
+  	top: 72.4%;
+  	right: 1.39%;
+  	bottom: 13.26%;
+  	left: 93.06%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+}
+.Subtract-icon {
+    position: absolute;
+  	height: 14.34%;
+  	width: 5.56%;
+  	top: 72.4%;
+  	right: 15%;
+  	bottom: 13.26%;
+  	left: 85%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+}
+.footer-item {
+  	position: absolute;
+  	top: 171px;
+  	left: 1189px;
+  	border-right: 2px solid #000;
+  	box-sizing: border-box;
+  	width: 2px;
+  	height: 116px;
+}
+.footer {
+  	position: absolute;
+  	top: 1297px;
+  	left: 0px;
+  	width: 1440px;
+  	height: 558px;
+  	font-size: 30px;
+  	font-family: Fredoka;
+}
+.shop {
+  	width: 100%;
+  	position: relative;
+  	background-color: #fff;
+  	height: 1855px;
+  	overflow: hidden;
+  	text-align: left;
+  	font-size: 13px;
+  	color: #000;
+  	font-family: Poppins;
+}
+.line-div {
+  	width: 100%;
+  	position: relative;
+  	border-right: 2px solid #000;
+  	box-sizing: border-box;
+  	height: 116px;
+}
+
