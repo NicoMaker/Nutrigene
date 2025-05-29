@@ -427,9 +427,16 @@
   max-height: 100%;
 }
 .subtract-icon {
-  position: relative;
-  width: 80px;
-  height: 80px;
+  position: absolute;
+  height: 14.34%;
+  width: 5.56%;
+  top: 72.4%;
+  right: 15%;
+  bottom: 13.26%;
+  left: 85%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
 }
 .line-div {
   position: absolute;
