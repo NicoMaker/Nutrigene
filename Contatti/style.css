@@ -141,6 +141,8 @@
 }
 .nutrigene-srl {
   margin: 0;
+  text-align: center;
+  align-items: center;
 }
 .nutrigene-srl-sede-container {
   position: absolute;
@@ -341,132 +343,53 @@
   margin-bottom: 80px;
 }
 
-/* FOOTER COME NELL'IMMAGINE */
+/* FOOTER SISTEMATO */
 .footer {
   position: absolute;
-  top: 1000px;
+  top: 1000px; /* Posizione fissa dopo il contenuto */
   left: 0;
   width: 100%;
-  height: 300px;
-  background: linear-gradient(135deg, #f4a261 0%, #e76f51 100%);
-  overflow: hidden;
-}
-
-/* Onde curve in alto */
-.footer::before {
-  content: "";
-  position: absolute;
-  top: -50px;
-  left: 0;
-  width: 100%;
-  height: 100px;
-  background: linear-gradient(135deg, #f4a261 0%, #e76f51 100%);
-  border-radius: 0 0 50% 50% / 0 0 100px 100px;
-  transform: scaleX(1.5);
+  height: 400px;
+  background: linear-gradient(135deg, #fa9529 0%, #f7941d 100%);
+  color: white;
+  padding: 40px 0;
+  box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.1);
+  z-index: 10;
 }
 
 .footer-child {
-  display: none; /* Nascondo l'immagine originale */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, #fa9529 0%, #f7941d 100%);
+  z-index: -1;
 }
 
 .footer-inner {
-  display: none;
+  display: none; /* Nascondo gli elementi duplicati */
 }
 
-/* Logo Nutrigene */
 .logo-footer-1-icon {
   position: absolute;
-  top: 60px;
+  top: 30px;
   left: 50px;
-  width: 150px;
-  height: 80px;
+  width: 120px;
+  height: 120px;
   object-fit: contain;
+  filter: brightness(0) invert(1); /* Rende il logo bianco */
 }
 
-/* Menu principale */
-.nutrigene2 {
-  position: absolute;
-  top: 60px;
-  left: 450px;
-  color: #2c3e50;
-  font-size: 16px;
-  font-weight: 600;
-  font-family: "Poppins", sans-serif;
-}
-
-.base1 {
-  position: absolute;
-  top: 85px;
-  left: 450px;
-  color: #2c3e50;
-  font-size: 16px;
-  font-weight: 400;
-  font-family: "Poppins", sans-serif;
-}
-
-.shop1 {
-  position: absolute;
-  top: 110px;
-  left: 450px;
-  color: #2c3e50;
-  font-size: 16px;
-  font-weight: 400;
-  font-family: "Poppins", sans-serif;
-}
-
-/* Seconda colonna menu */
-.punti-vendita1 {
-  position: absolute;
-  top: 60px;
-  left: 600px;
-  color: #2c3e50;
-  font-size: 16px;
-  font-weight: 400;
-  font-family: "Poppins", sans-serif;
-}
-
-.contatti2 {
-  position: absolute;
-  top: 85px;
-  left: 600px;
-  color: #2c3e50;
-  font-size: 16px;
-  font-weight: 400;
-  font-family: "Poppins", sans-serif;
-}
-
-/* Terza colonna menu */
-.account-area-veterinari-container {
-  position: absolute;
-  top: 60px;
-  left: 750px;
-  color: #2c3e50;
-  font-size: 16px;
-  font-weight: 400;
-  font-family: "Poppins", sans-serif;
-  line-height: 1.6;
-}
-
-/* Linea verticale separatrice */
-.line-div {
-  position: absolute;
-  top: 60px;
-  left: 720px;
-  border-right: 2px solid #2c3e50;
-  width: 2px;
-  height: 80px;
-}
-
-/* Informazioni aziendali */
 .nutrigene-srl-via-morpurgo-container {
   position: absolute;
-  top: 160px;
+  top: 200px;
   left: 50px;
-  width: 400px;
-  font-family: "Poppins", sans-serif;
-  font-size: 14px;
-  line-height: 1.4;
-  color: #2c3e50;
+  width: 500px;
+  font-family: Poppins;
+  font-size: 16px;
+  line-height: 1.5;
+  color: white;
 }
 
 .nutrigene-srl-via-morpurgo-container1 {
@@ -474,49 +397,131 @@
 }
 
 .infonutrigenefoodcom {
-  color: #2c3e50;
+  color: white;
+  text-decoration: none;
+}
+
+.infonutrigenefoodcom:hover {
   text-decoration: underline;
 }
 
-/* Footer links */
 .privacy-policy-cookie-policy {
-  margin: 10px 0 0 0;
-  font-size: 12px;
+  margin: 20px 0 0 0;
+  font-size: 14px;
+  opacity: 0.9;
 }
 
 .privacy-policy {
-  color: #2c3e50;
+  color: white;
+  text-decoration: none;
+}
+
+.privacy-policy:hover {
   text-decoration: underline;
+}
+
+/* Menu links nel footer */
+.nutrigene2,
+.base1,
+.shop1 {
+  position: absolute;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.nutrigene2 {
+  top: 50px;
+  left: 600px;
+}
+
+.base1 {
+  top: 80px;
+  left: 600px;
+}
+
+.shop1 {
+  top: 110px;
+  left: 600px;
+}
+
+.punti-vendita1,
+.contatti2 {
+  position: absolute;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.punti-vendita1 {
+  top: 50px;
+  left: 800px;
+}
+
+.contatti2 {
+  top: 80px;
+  left: 800px;
+}
+
+.account-area-veterinari-container {
+  position: absolute;
+  top: 50px;
+  left: 1000px;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  line-height: 1.8;
 }
 
 /* Social icons */
 .facebook-icon {
   position: absolute;
-  top: 200px;
-  right: 50px;
+  top: 300px;
+  right: 100px;
   width: 40px;
   height: 40px;
-  background-color: #2c3e50;
-  border-radius: 50%;
-  padding: 8px;
+  filter: brightness(0) invert(1);
+  transition: transform 0.3s ease;
+}
+
+.facebook-icon:hover {
+  transform: scale(1.1);
 }
 
 .subtract-icon {
   position: absolute;
-  top: 200px;
-  right: 110px;
+  top: 300px;
+  right: 50px;
   width: 40px;
   height: 40px;
-  background-color: #2c3e50;
-  border-radius: 50%;
-  padding: 8px;
+  filter: brightness(0) invert(1);
+  transition: transform 0.3s ease;
+}
+
+.subtract-icon:hover {
+  transform: scale(1.1);
+}
+
+.line-div {
+  position: absolute;
+  top: 40px;
+  right: 200px;
+  border-right: 2px solid rgba(255, 255, 255, 0.3);
+  width: 2px;
+  height: 200px;
 }
 
 .contatti {
   width: 100%;
   position: relative;
   background-color: #fff;
-  height: 1350px;
+  height: 1450px; /* Altezza aggiustata */
   overflow: hidden;
   text-align: left;
   font-size: 30px;
