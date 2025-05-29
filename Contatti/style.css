@@ -310,164 +310,6 @@
   font-size: 15px;
   font-family: Poppins;
 }
-.footer-child {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    top: 0%;
-    right: 0%;
-    bottom: 0%;
-    left: 0%;
-    max-width: 100%;
-    overflow: hidden;
-    max-height: 100%;
-}
-
-.footer {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 1440px;
-    height: 558px;
-}
-.footer-wrapper {
-    position: absolute;
-    top: 4519px;
-    left: 0px;
-    width: 1440px;
-    height: 558px;
-    font-size: 30px;
-    font-family: Fredoka;
-}
-.footer-inner {
-  position: absolute;
-  height: 60.18%;
-  width: 100%;
-  top: 60.18%;
-  right: 0%;
-  bottom: -20.36%;
-  left: 0%;
-  max-width: 100%;
-  overflow: hidden;
-  max-height: 100%;
-}
-.logo-footer-1-icon {
-    position: absolute;
-    width: 29.44%;
-    top: 111.31px;
-    right: 69.86%;
-    left: 0.69%;
-    max-width: 100%;
-    overflow: hidden;
-    height: 150px;
-    object-fit: cover;
-}
-.infonutrigenefoodcom {
-  color: inherit;
-}
-.privacy-policy-cookie-policy {
-  margin: 0;
-  font-size: 20px;
-}
-.nutrigene-srl-via-morpurgo-container1 {
-  width: 100%;
-}
-.nutrigene-srl-via-morpurgo-container {
-  position: absolute;
-  height: 31.54%;
-  width: 90.07%;
-  top: 62.19%;
-  left: 1.32%;
-  font-family: Poppins;
-  display: flex;
-  align-items: center;
-  font-size: 25px;
-}
-.punti-vendita1 {
-  position: absolute;
-  width: 15.28%;
-  top: 30.47%;
-  left: 67.36%;
-  display: flex;
-  align-items: center;
-}
-.contatti2 {
-  position: absolute;
-  width: 15.28%;
-  top: 36.92%;
-  left: 67.36%;
-  display: flex;
-  align-items: center;
-}
-.nutrigene2 {
-  position: absolute;
-  width: 15.28%;
-  top: 30.47%;
-  left: 50.69%;
-  display: flex;
-  align-items: center;
-}
-.base1 {
-  position: absolute;
-  width: 15.28%;
-  top: 36.92%;
-  left: 50.69%;
-  display: flex;
-  align-items: center;
-}
-.shop1 {
-  position: absolute;
-  width: 15.28%;
-  top: 43.37%;
-  left: 50.69%;
-  display: flex;
-  align-items: center;
-}
-.account-area-veterinari-container {
-  position: absolute;
-  width: 15.28%;
-  top: 30.29%;
-  left: 84.03%;
-  display: flex;
-  align-items: center;
-}
-.facebook-icon {
-  position: absolute;
-  height: 14.34%;
-  width: 5.56%;
-  top: 72.4%;
-  right: 1.39%;
-  bottom: 13.26%;
-  left: 93.06%;
-  max-width: 100%;
-  overflow: hidden;
-  max-height: 100%;
-}
-.subtract-icon {
-  position: relative;
-  width: 80px;
-  height: 80px;
-}
-.line-div {
-  position: absolute;
-  top: 171px;
-  left: 1189px;
-  border-right: 2px solid #000;
-  box-sizing: border-box;
-  width: 2px;
-  height: 116px;
-}
-.footer {
-  position: absolute;
-  /* Changed from fixed top position to be positioned after content */
-  top: auto;
-  bottom: 0;
-  left: 0px;
-  width: 1440px;
-  height: 558px;
-  /* Added margin-top to ensure space between content and footer */
-  margin-top: 50px;
-}
 .rectangle-icon {
   position: absolute;
   top: 0px;
@@ -496,15 +338,188 @@
   text-align: center;
   font-size: 35px;
   color: #fa9529;
-  /* Added margin-bottom to ensure space between this element and footer */
-  margin-bottom: 50px;
+  margin-bottom: 80px;
 }
+
+/* FOOTER SISTEMATO */
+.footer {
+  position: absolute;
+  top: 1000px; /* Posizione fissa dopo il contenuto */
+  left: 0;
+  width: 100%;
+  height: 400px;
+  background: linear-gradient(135deg, #fa9529 0%, #f7941d 100%);
+  color: white;
+  padding: 40px 0;
+  box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+}
+
+.footer-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, #fa9529 0%, #f7941d 100%);
+  z-index: -1;
+}
+
+.footer-inner {
+  display: none; /* Nascondo gli elementi duplicati */
+}
+
+.logo-footer-1-icon {
+  position: absolute;
+  top: 30px;
+  left: 50px;
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+  filter: brightness(0) invert(1); /* Rende il logo bianco */
+}
+
+.nutrigene-srl-via-morpurgo-container {
+  position: absolute;
+  top: 200px;
+  left: 50px;
+  width: 500px;
+  font-family: Poppins;
+  font-size: 16px;
+  line-height: 1.5;
+  color: white;
+}
+
+.nutrigene-srl-via-morpurgo-container1 {
+  width: 100%;
+}
+
+.infonutrigenefoodcom {
+  color: white;
+  text-decoration: none;
+}
+
+.infonutrigenefoodcom:hover {
+  text-decoration: underline;
+}
+
+.privacy-policy-cookie-policy {
+  margin: 20px 0 0 0;
+  font-size: 14px;
+  opacity: 0.9;
+}
+
+.privacy-policy {
+  color: white;
+  text-decoration: none;
+}
+
+.privacy-policy:hover {
+  text-decoration: underline;
+}
+
+/* Menu links nel footer */
+.nutrigene2,
+.base1,
+.shop1 {
+  position: absolute;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.nutrigene2 {
+  top: 50px;
+  left: 600px;
+}
+
+.base1 {
+  top: 80px;
+  left: 600px;
+}
+
+.shop1 {
+  top: 110px;
+  left: 600px;
+}
+
+.punti-vendita1,
+.contatti2 {
+  position: absolute;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.punti-vendita1 {
+  top: 50px;
+  left: 800px;
+}
+
+.contatti2 {
+  top: 80px;
+  left: 800px;
+}
+
+.account-area-veterinari-container {
+  position: absolute;
+  top: 50px;
+  left: 1000px;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  line-height: 1.8;
+}
+
+/* Social icons */
+.facebook-icon {
+  position: absolute;
+  top: 300px;
+  right: 100px;
+  width: 40px;
+  height: 40px;
+  filter: brightness(0) invert(1);
+  transition: transform 0.3s ease;
+}
+
+.facebook-icon:hover {
+  transform: scale(1.1);
+}
+
+.subtract-icon {
+  position: absolute;
+  top: 300px;
+  right: 50px;
+  width: 40px;
+  height: 40px;
+  filter: brightness(0) invert(1);
+  transition: transform 0.3s ease;
+}
+
+.subtract-icon:hover {
+  transform: scale(1.1);
+}
+
+.line-div {
+  position: absolute;
+  top: 40px;
+  right: 200px;
+  border-right: 2px solid rgba(255, 255, 255, 0.3);
+  width: 2px;
+  height: 200px;
+}
+
 .contatti {
   width: 100%;
   position: relative;
   background-color: #fff;
-  /* Increased height to accommodate all content plus footer */
-  height: 1600px;
+  height: 1450px; /* Altezza aggiustata */
   overflow: hidden;
   text-align: left;
   font-size: 30px;
